@@ -18,12 +18,9 @@ A simple SwiftUI movie app demonstrating TMDB integration, user authentication, 
 
 1. Open `projectswift.xcodeproj` in Xcode.
 2. Select a simulator or device and run the app.
-3. If you use Firebase features, ensure your `GoogleService-Info.plist` is present.
+3. Ensure your `GoogleService-Info.plist` is present.
 
 ## Screenshots
-
-Below are screenshots from the app:
-
 <p align="center">
   <img src="screenshots/Simulator Screenshot - iPhone 16 Pro - 2025-11-25 at 18.07.18.png" width="250" />
   <img src="screenshots/Simulator Screenshot - iPhone 16 Pro - 2025-11-25 at 18.07.23.png" width="250" />
@@ -41,10 +38,5 @@ Below are screenshots from the app:
   <img src="screenshots/Simulator Screenshot - iPhone 16 Pro - 2025-11-25 at 18.09.20.png" width="250" />
   <img src="screenshots/Simulator Screenshot - iPhone 16 Pro - 2025-11-25 at 18.09.23.png" width="250" />
 </p>
-
-## Notes
-
-- The project uses TMDB APIs; see `Services/TMDBService.swift` and `Models/TMDBMovie.swift` for implementation details.
-- To update dependencies or change the iOS target, adjust settings in the Xcode project.
 
 ---
